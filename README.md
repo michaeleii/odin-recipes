@@ -5,4 +5,5 @@
 <ul>
   <li>Git Basics</li>
   <li>HTML Basics</li>
+  <li>CSS Basics</li>
     
