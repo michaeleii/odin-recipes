@@ -1,0 +1,23 @@
+body {
+    background-color: #20232a;
+    color: white;
+}
+
+img {
+    width: 1000px;
+    height: 100%;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+}
+
+a:hover {
+    text-decoration: underline;
+}

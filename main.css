@@ -6,21 +6,72 @@ header, footer {
     text-align: center;
 }
 
-
 .nav-area {
+    padding: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 
 }
+
 .nav-image {
     padding: 10px;
+    position: relative;
+    border: solid#20232a;
 }
 
 img {
     width: 500px;
     height: 100%;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #20232ac9;
+}
+.nav-image:hover {
+    border: solid white;
+}
+.nav-image:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nav-image:hover .text {
+    opacity: 1;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
 footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
     font-size: small;
-    margin-bottom: 0px;
 }
