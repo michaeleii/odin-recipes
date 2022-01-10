@@ -4,8 +4,10 @@ body {
 }
 
 img {
-    width: 1000px;
+    width: 550px;
     height: 100%;
+    display: block;
+    padding-top: 20px;
 }
 
 li {
@@ -15,7 +17,7 @@ li {
 a {
     color: white;
     text-decoration: none;
-    width: fit-content;
+    
 }
 
 a:hover {
