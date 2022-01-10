@@ -1,0 +1,26 @@
+body {
+    background-color: #20232a;
+    color: white;
+}
+header, footer {
+    text-align: center;
+}
+
+
+.nav-area {
+    display: flex;
+    justify-content: center;
+
+}
+.nav-image {
+    padding: 10px;
+}
+
+img {
+    width: 500px;
+    height: 100%;
+}
+footer {
+    font-size: small;
+    margin-bottom: 0px;
+}
